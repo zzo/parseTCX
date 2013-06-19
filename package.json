@@ -1,0 +1,21 @@
+{
+  "name": "parseTCX",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "xml2js": "~0.2.7",
+    "stdev": "0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "jasmine-node": "~1.8.0",
+    "istanbul": "~0.1.36",
+    "grunt-plato": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-env": "~0.4.0"
+  }
+}
