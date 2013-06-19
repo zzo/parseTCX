@@ -16,6 +16,7 @@
     "istanbul": "~0.1.36",
     "grunt-plato": "~0.2.0",
     "grunt-contrib-watch": "~0.4.4",
-    "grunt-env": "~0.4.0"
+    "grunt-env": "~0.4.0",
+    "grunt-cli": "~0.1.9"
   }
 }
