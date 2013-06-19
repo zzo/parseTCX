@@ -1,5 +1,5 @@
 {
-  "name": "parseTCX",
+  "name": "tcxparse",
   "description": "Parse TCX files - turn the XML into an Object basically plus footpod calibration",
   "keywords": [
     "garmin",
