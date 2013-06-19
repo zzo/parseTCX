@@ -5,7 +5,7 @@ parseTCX
 
 parse a TCX file - returns a JS object with all interesting values including Foot Pod extension and footpod calibration.
 
-    var tcxParser = require('parseTCX');
+    var tcxParser = require('tcxparse');
     tcxParser.parseFile(tcxFile.path, function(err, tcx) {
         if (!err) {
             var details = tcx.getFootpodDetails();
