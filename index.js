@@ -59,7 +59,7 @@ module.exports = (function() {
                 }
             });
         }
-        , getFootpodDetails: function(shortname) {
+        , getFootpodDetails: function() {
             var me = this
                 , sumscale = 0
                 , numpoints = 0
