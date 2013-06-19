@@ -20,3 +20,5 @@ http://fellrnr.com/wiki/Garmin_Foot_Pod_Calibration
 
 All because I don't have a Windows box!
 
+Used by 'footpod' a Web UI for Foot Pod calibration
+

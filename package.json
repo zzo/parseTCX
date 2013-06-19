@@ -1,10 +1,21 @@
 {
   "name": "parseTCX",
+  "description": "Parse TCX files - turn the XML into an Object basically plus footpod calibration",
+  "keywords": [
+    "garmin",
+    "footpod",
+    "exercise"
+  ],
+  "author": "Mark Ethan Trostler <mark@zzo.com>",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "test": "grunt test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zzo/parseTCX.git"
+  },
+  "homepage": "https://github.com/zzo/parseTCX",
   "dependencies": {
     "xml2js": "~0.2.7",
     "stdev": "0.0.1"
