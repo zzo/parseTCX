@@ -111,8 +111,10 @@ module.exports = (function() {
                                         lapdata.footpoddistance.push(footpoddistance);
                                         lapdata.scale.push(scale);
                                         lapdata.time.push(currenttime);
-                                        var pos = point.Position[0];
-                                        lapdata.gps.push([pos.LatitudeDegrees[0], pos.LongitudeDegrees[0]]);
+                                        if (point.Position) {
+                                            var pos = point.Position[0];
+                                            lapdata.gps.push([pos.LatitudeDegrees[0], pos.LongitudeDegrees[0]]);
+                                        }
                                     }
                                 }
                             }
